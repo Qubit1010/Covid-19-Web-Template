@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background: url(hallwa.jpg);
+  color: rgb(0, 0, 0);
+  font-family: 'Righteous', cursive;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+
+
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+}
+.left img{
+    width: 100px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.left div{
+    display: block;
+   color: rgb(214 0 0);
+    font-size: 24px;
+    padding: 10px 10px;
+    position: relative;
+    top: -8px;
+    left: -6px;
+}
+
+
+
+
+
+.mid {
+    width: 50%;
+    display: block;
+    margin: 30px auto;
+    font-size: 27px;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+
+
+.navbar ul{
+    display: inline-block;
+    margin: auto;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.navbar li a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    padding: 3px 16px;
+    background-color: #ffffffbd;
+    border-radius: 8%;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    color: rgb(255, 255, 255);
+    text-decoration: none ;
+    background-color: brown;
+    
+}
+
+
+.btn{
+        margin: 0px 14px;
+        background-color: rgb(133, 0, 0);
+        color: rgb(255, 255, 255);
+        font-family: 'Righteous', cursive;
+        padding: 8px 20px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        font-size: 12px;
+        cursor: pointer;
+        border: 0px;
+    }
+
+.btn:hover{
+    color: white;
+    background-color: black;
+    border: 0px ;
+}
+
+
+
+.container {
+        position: absolute;
+        right: 0px;
+        top: 70px;
+        border: 1px solid white;
+        margin: 90px 20px;
+        padding: 10px;
+        width: 33%;
+        border-radius: 28px;
+}
+
+
+.form-group input {
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        display: block;
+        width: 308px;
+        padding: 7px;
+        border: 1px solid rgb(0, 0, 0);
+        margin: 5px auto;
+        font-size: 12px;
+        border-radius: 8px;
+}
+
+
+.container h1{
+    text-align: center;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+
+.container button{
+    display: block;
+    width: 75%;
+    margin: 25px auto;
+}
